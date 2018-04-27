@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.exed.arcmtesting.paginas.HomePage;
+import com.exed.arcmtesting.paginas.ListaMeusObjPage;
 import com.exed.arcmtesting.paginas.LoginPage;
 
 public class TestarFluxoDeApontamento {
@@ -30,7 +31,11 @@ public class TestarFluxoDeApontamento {
 		
 		login.visita();
 		HomePage home = login.executaLogin("caio.robert", "manager");
-		home.navegarParaExplorerPage();
+		ListaMeusObjPage meusObjPage = home.navegarParaExplorerPage()
+			.acessaMenuApontamento()
+			.acessaListaMeusObjetos();
+		
+		meusObjPage.selecionaCasosDeTeste().criarApontamento();
 		
 	}
 	
