@@ -5,7 +5,9 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.exed.arcmtesting.paginas.ApontamentoPage;
 import com.exed.arcmtesting.paginas.HomePage;
+import com.exed.arcmtesting.paginas.IssueClassification;
 import com.exed.arcmtesting.paginas.ListaMeusObjPage;
 import com.exed.arcmtesting.paginas.LoginPage;
 
@@ -35,7 +37,8 @@ public class TestarFluxoDeApontamento {
 			.acessaMenuApontamento()
 			.acessaListaMeusObjetos();
 		
-		meusObjPage.selecionaCasosDeTeste().criarApontamento();
+		ApontamentoPage apontamento = meusObjPage.selecionaCasosDeTeste().criarApontamento();
+		apontamento.preencheTipo(IssueClassification.APONTAMENTO);
 		
 	}
 	
