@@ -19,6 +19,8 @@ public class HomePage {
 		WebElement frameElem = driver.findElement(By.name("head"));
 		WebDriver frame = driver.switchTo().frame(frameElem);
 		String xPath = "/html/body/table/tbody/tr[1]/td/table/tbody/tr/td[2]/div[2]";
+		
+		ElementWaiter.waitForElementPresent(frame, By.xpath(xPath), 10);
 		frame.findElement(By.xpath(xPath)).click();
 			
 		return new ExplorerPage(driver);

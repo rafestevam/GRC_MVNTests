@@ -38,7 +38,11 @@ public class TestarFluxoDeApontamento {
 			.acessaListaMeusObjetos();
 		
 		ApontamentoPage apontamento = meusObjPage.selecionaCasosDeTeste().criarApontamento();
-		apontamento.preencheTipo(IssueClassification.APONTAMENTO);
+		apontamento
+			.preencheTipo(IssueClassification.APONTAMENTO)
+			.preencheDados()
+			.preencheDono()
+			.preencheRevisor();
 		
 	}
 	
