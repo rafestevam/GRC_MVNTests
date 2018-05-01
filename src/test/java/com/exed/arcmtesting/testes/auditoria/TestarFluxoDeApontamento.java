@@ -42,7 +42,8 @@ public class TestarFluxoDeApontamento {
 			.preencheTipo(IssueClassification.APONTAMENTO)
 			.preencheDados()
 			.preencheDono()
-			.preencheRevisor();
+			.preencheRevisor()
+			.salvaApontamento();
 		
 	}
 	
