@@ -11,6 +11,8 @@ import com.exed.arcmtesting.paginas.IssueClassification;
 import com.exed.arcmtesting.paginas.ListaMeusObjPage;
 import com.exed.arcmtesting.paginas.LoginPage;
 
+import static org.junit.Assert.assertTrue;
+
 public class TestarFluxoDeApontamento {
 	
 	private LoginPage login;
@@ -29,7 +31,7 @@ public class TestarFluxoDeApontamento {
 	}
 	
 	@Test
-	public void acessarListagemRelatorioGerencial(){
+	public void criarApontamento(){
 		
 		login.visita();
 		HomePage home = login.executaLogin("caio.robert", "manager");
@@ -40,10 +42,12 @@ public class TestarFluxoDeApontamento {
 		ApontamentoPage apontamento = meusObjPage.selecionaCasosDeTeste().criarApontamento();
 		apontamento
 			.preencheTipo(IssueClassification.APONTAMENTO)
-			.preencheDados()
-			.preencheDono()
-			.preencheRevisor()
-			.salvaApontamento();
+			.preencheDados();
+		//apontamento.preencheDono();
+		apontamento.preencheRevisor();
+		apontamento.salvaApontamento();
+		
+		assertTrue(!apontamento.verificaErroFormulario());
 		
 	}
 	

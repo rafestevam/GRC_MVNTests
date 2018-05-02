@@ -1,12 +1,14 @@
 package com.exed.arcmtesting.paginas;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import com.exed.arcmtesting.infra.ElementWaiter;
@@ -50,7 +52,7 @@ public class ApontamentoPage {
 				
 		ElementWaiter.waitForElementPresent(formFrame, By.id("name"), 10);
 		WebElement issueTitle = formFrame.findElement(By.id("name"));
-		issueTitle.sendKeys("Teste de Apontamento - Selenium");
+		issueTitle.sendKeys("Teste de Apontamento - Selenium 5");
 		
 		ElementWaiter.waitForElementPresent(formFrame, By.name("description"), 10);
 		WebElement issueDescription = formFrame.findElement(By.name("description"));
@@ -60,6 +62,17 @@ public class ApontamentoPage {
 		WebElement issueCause = formFrame.findElement(By.name("root_cause"));
 		issueCause.sendKeys("Causa Raiz para Teste de Apontamento - Selenium");
 		
+		ElementWaiter.waitForElementPresent(formFrame, By.id("plannedenddate"), 10);
+		WebElement issueDate = formFrame.findElement(By.id("plannedenddate"));
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		
+		Calendar calendar = Calendar.getInstance();
+		calendar.add(Calendar.DATE, 10);
+		Date currentDate = calendar.getTime();
+		
+		String dateInString = dateFormat.format(currentDate).toString();
+		issueDate.sendKeys(dateInString);
+		
 		ElementWaiter.waitForElementPresent(formFrame, By.name("acting_front"), 10);
 		WebElement issueActing = formFrame.findElement(By.name("acting_front"));
 		Select actingSelection = new Select(issueActing);
@@ -68,9 +81,9 @@ public class ApontamentoPage {
 		return new ApontamentoPage(driver);
 	}
 	
-	public ApontamentoPage preencheDono(){
+	public void preencheDono(){
 		
-		String mainWindowHandle = driver.getWindowHandle();
+		String mainWindowHandle = formFrame.getWindowHandle();
 		
 		ElementWaiter.waitForElementPresent(formFrame, By.id("attach_owners"), 10);
 		formFrame.findElement(By.id("attach_owners")).click();
@@ -104,14 +117,15 @@ public class ApontamentoPage {
 		
 		ElementWaiter.waitForElementPresent(ownersWindow, By.id("header_attach"), 10);
 		ownersWindow.findElement(By.id("header_attach")).click();
+		//ownersWindow.close();
 		
-		driver.switchTo().window(mainWindowHandle);
-		return new ApontamentoPage(driver);
+		formFrame.switchTo().window(mainWindowHandle);
+		//return new ApontamentoPage(driver);
 	}
 	
-	public ApontamentoPage preencheRevisor(){
+	public void preencheRevisor(){
 		
-		String mainWindowHandle = driver.getWindowHandle();
+		String mainWindowHandle = formFrame.getWindowHandle();
 		
 		ElementWaiter.waitForElementPresent(formFrame, By.id("attach_reviewers"), 10);
 		formFrame.findElement(By.id("attach_reviewers")).click();
@@ -145,33 +159,32 @@ public class ApontamentoPage {
 		
 		ElementWaiter.waitForElementPresent(reviewersWindow, By.id("header_attach"), 10);
 		reviewersWindow.findElement(By.id("header_attach")).click();
+		//reviewersWindow.close();
 		
-		driver.switchTo().window(mainWindowHandle);
-		return new ApontamentoPage(driver);
+		formFrame.switchTo().window(mainWindowHandle);
+		//return new ApontamentoPage(driver);
 	}
 	
 	public ApontamentoPage salvaApontamento(){
-		
-//		ElementWaiter.waitForElementPresent(formFrame, By.id("form_save"), 10);
-//		ElementWaiter.waitForElementClickable(formFrame, By.id("form_save"), 10);
-//		WebElement saveButton = formFrame.findElement(By.id("form_save"));
-		
-//		saveButton.click();
-//		JavascriptExecutor executor = (JavascriptExecutor) formFrame;
-//		executor.executeScript("javascript:aam_objectcommand('save', null, null, '_parent')", saveButton);
-		
-		WebElement saveButton = ElementWaiter.waitForElementClickable(formFrame, By.id("form_save"), 10);
-		
-		Actions builder = new Actions(formFrame);
-		builder.moveToElement(saveButton)
-			.moveToElement(saveButton)
-			.click()
-			.build()
-			.perform();
-		
-//		formFrame.findElement(By.id("form_save")).click();
+
+		try{
+			ElementWaiter.waitForElementPresent(formFrame, By.id("form_save"), 10);
+			Thread.sleep(3000);
+			formFrame.findElement(By.id("form_save")).click();
+		}catch(Exception e){
+			throw new RuntimeException(e);
+		}
 		
 		return new ApontamentoPage(driver);
 	} 
+	
+	public boolean verificaErroFormulario(){
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
+		}
+		return formFrame.getPageSource().contains("O formulário contém erros.");
+	}
 
 }

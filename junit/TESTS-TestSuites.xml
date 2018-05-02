@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="DESKTOP-8TQRJNK" id="0" name="TestarFluxoDeApontamento" package="com.exed.arcmtesting.testes.auditoria" skipped="0" tests="1" time="27.075" timestamp="2018-05-02T20:39:20">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-8TQRJNK" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/eclipse_j2ee/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="env.ARCM_LOG" value="C:\ARCM\Installed\SoftwareAG\ARIS9.8\server\bin\work\work_arcm_s\base\logs\arcm" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes" />
+
+          <property name="env.COMPUTERNAME" value="DESKTOP-8TQRJNK" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="java.runtime.version" value="1.8.0_121-b13" />
+
+          <property name="env.HOMEPATH" value="\Users\rafes" />
+
+          <property name="user.name" value="rafes" />
+
+          <property name="user.language" value="pt" />
+
+          <property name="ARCM_TOMCAT_HOME" value="C:\ARCM\tools\tomee\home" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="arcmTesting" />
+
+          <property name="java.version" value="1.8.0_121" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\Users\rafes\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ECLIPSE_HOME" value="../../../../eclipse_j2ee/" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="BR" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+
+          <property name="env.APPDATA" value="C:\Users\rafes\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\ARCM\workspaces\workspace\arcmTesting\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.121-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\rafes" />
+
+          <property name="ant.library.dir" value="C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_121" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\rafes\AppData\Local\Temp" />
+
+          <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/eclipse_j2ee/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+
+          <property name="user.home" value="C:\Users\rafes" />
+
+          <property name="target" value="1.5" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="env.caminho" value="C:\oraclexe\app\oracle\product\11.2.0\server\bin;" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Users\rafes\AppData\Local\Microsoft\WindowsApps;;C:\eclipse_j2ee;;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.exed.arcmtesting.testes.auditoria.TestarFluxoDeApontamento skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\ARCM\workspaces\workspace\arcmTesting\junit\TEST-com.exed.arcmtesting.testes.auditoria.TestarFluxoDeApontamento.xml crashfile=C:\ARCM\workspaces\workspace\arcmTesting\junitvmwatcher6825127242517383365.properties propsfile=C:\ARCM\workspaces\workspace\arcmTesting\junit7691315267175864385.properties" />
+
+          <property name="java.class.path" value="C:\ARCM\workspaces\workspace\arcmTesting\target\classes;C:\ARCM\workspaces\workspace\arcmTesting\target\test-classes;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\rafes\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\rafes\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\rafes\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rafes\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\rafes\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rafes\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\rafes\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\rafes\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rafes\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rafes\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rafes\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rafes\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rafes\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\rafes\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\rafes\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\rafes\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\rafes\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rafes\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\eclipse_j2ee\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="env.LOGONSERVER" value="\\DESKTOP-8TQRJNK" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.OneDrive" value="C:\Users\rafes\OneDrive" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="env.ANT_HOME" value="C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020" />
+
+          <property name="env.PROCESSOR_REVISION" value="2a07" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/eclipse_j2ee/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\rafes\AppData\Local\Temp\" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="ant.file.arcmTesting" value="C:\ARCM\workspaces\workspace\arcmTesting\build.xml" />
+
+          <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\ARCM\workspaces\workspace\arcmTesting" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\rafes\AppData\Local" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Users\rafes\AppData\Local\Microsoft\WindowsApps;;C:\eclipse_j2ee;" />
+
+          <property name="basedir" value="C:\ARCM\workspaces\workspace\arcmTesting" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\eclipse_j2ee\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="rafes" />
+
+          <property name="source" value="1.5" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="DESKTOP-8TQRJNK" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="TestarFluxoDeApontamento,junitreport" />
+
+          <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="ant.file.type.arcmTesting" value="file" />
+
+      </properties>
+
+      <testcase classname="com.exed.arcmtesting.testes.auditoria.TestarFluxoDeApontamento" name="criarApontamento" time="26.946">
+          <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at com.exed.arcmtesting.testes.auditoria.TestarFluxoDeApontamento.criarApontamento(TestarFluxoDeApontamento.java:50)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[1525293561903	geckodriver	INFO	geckodriver 0.20.1
+1525293561918	geckodriver	INFO	Listening on 127.0.0.1:13988
+1525293562792	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rafes\\AppData\\Local\\Temp\\rust_mozprofile.64PWHD02DsPU"
+1525293563382	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1525293564162	Marionette	INFO	Enabled via --marionette
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+[Child 23032] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23032] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1525293566464	Marionette	INFO	Listening on port 55690
+[GFX1-]: PossiblyBrokenSurfaceSharing_UnexpectedAMDGPU
+1525293566778	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525293566858	Marionette	DEBUG	Register listener.js for window 4294967297
+mai 02, 2018 5:39:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+1525293566981	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1525293567030	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1525293567030	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1525293567384	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8080/arcm/login.jsp"
+1525293567591	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8080/arcm/login.jsp"
+1525293569213	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525293570121	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525293570235	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/modules/dataexplorer.jsp?__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293570286	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/modules/dataexplorer.jsp?__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293570287	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/modules/dataexplorer.jsp?__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293570671	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8080/arcm/list.do?__listName=MyIssueRelevantObjects&__commandId=init&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293570792	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8080/arcm/list.do?__listName=MyIssueRelevantObjects&__commandId=init&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293571469	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525293571575	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/list.do?__listName=MyIssueRelevantObjects&__commandId=init&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293571640	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/list.do?__listName=MyIssueRelevantObjects&__commandId=init&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293571640	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/list.do?__listName=MyIssueRelevantObjects&__commandId=init&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293571758	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8080/arcm/openFormsetAction.do?__objectType=issue&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293571767	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967312"
+1525293572853	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8080/arcm/openFormsetAction.do?__objectType=issue&__windowId=fe514a81-cf70-4b29-930d-318338c0c081"
+1525293573286	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/object.do?__windowId=fe514a81-cf70-4b29-930d-318338c0c081&__commandId=cache&__objectType=issue&__formPage=1"
+1525293573753	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/object.do?__windowId=fe514a81-cf70-4b29-930d-318338c0c081&__commandId=cache&__objectType=issue&__formPage=1"
+1525293573756	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/object.do?__windowId=fe514a81-cf70-4b29-930d-318338c0c081&__commandId=cache&__objectType=issue&__formPage=1"
+1525293574208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8080/arcm/object.do"
+1525293574362	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8080/arcm/object.do"
+1525293575634	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/object.do"
+1525293576137	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/object.do"
+1525293576141	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/object.do"
+1525293576648	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8080/arcm/object.do"
+1525293576782	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8080/arcm/object.do"
+1525293577361	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525293577517	Marionette	DEBUG	Register listener.js for window 4294967319
+1525293579327	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/list.do?__windowId=fe514a81-cf70-4b29-930d-318338c0c081&__commandId=initSelection&__listName=IssueReviewerSelection&__windowType=popup&__forwardAttribute=reviewers"
+1525293579466	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/list.do?__windowId=fe514a81-cf70-4b29-930d-318338c0c081&__commandId=initSelection&__listName=IssueReviewerSelection&__windowType=popup&__forwardAttribute=reviewers"
+1525293579466	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/list.do?__windowId=fe514a81-cf70-4b29-930d-318338c0c081&__commandId=initSelection&__listName=IssueReviewerSelection&__windowType=popup&__forwardAttribute=reviewers"
+1525293579700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1525293579806	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8080/arcm/list.do"
+1525293579846	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8080/arcm/list.do"
+1525293580305	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1525293580415	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/list.do"
+1525293580457	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/list.do"
+1525293580458	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/list.do"
+1525293580461	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967325"
+1525293580461	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967319"
+1525293583655	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8080/arcm/object.do"
+1525293583828	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8080/arcm/object.do"
+1525293583828	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8080/arcm/object.do"
+1525293583973	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967315"
+]]></system-err>
+
+  </testsuite>
+</testsuites>

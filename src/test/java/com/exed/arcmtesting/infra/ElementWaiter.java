@@ -10,15 +10,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ElementWaiter {
 
-	public static void waitForElementPresent(WebDriver driver, final By by, int timeout) {
+	public static Boolean waitForElementPresent(WebDriver driver, final By by, int timeout) {
 		WebDriverWait wait = (WebDriverWait) new WebDriverWait(driver, timeout)
 				.ignoring(StaleElementReferenceException.class);
-		wait.until(new ExpectedCondition<Boolean>() {
+		Boolean waitResult = wait.until(new ExpectedCondition<Boolean>() {
 			public Boolean apply(WebDriver webDriver) {
 				WebElement element = webDriver.findElement(by);
 				return element != null && element.isDisplayed();
 			}
 		});
+		return waitResult;
 	}
 	
 	public static WebElement waitForElementClickable(WebDriver driver, final By by, int timeout){
