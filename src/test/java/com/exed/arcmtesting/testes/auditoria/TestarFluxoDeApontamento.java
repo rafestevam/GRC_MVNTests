@@ -43,7 +43,7 @@ public class TestarFluxoDeApontamento {
 		apontamento
 			.preencheTipo(IssueClassification.APONTAMENTO)
 			.preencheDados();
-		//apontamento.preencheDono();
+		apontamento.preencheDono();
 		apontamento.preencheRevisor();
 		apontamento.salvaApontamento();
 		
